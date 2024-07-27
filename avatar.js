@@ -1,5 +1,5 @@
 function changeAvatar(layer, image) {
-    document.getElementById(`${layer}-layer`).src = `images/${image}`;
+    document.getElementById(layer).src = `images/${image}`;
 }
 
 function downloadAvatar() {
