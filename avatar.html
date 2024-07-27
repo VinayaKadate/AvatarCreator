@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar Creator</title>
+    <link rel="stylesheet" href="avatar.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar left">
+            <div class="control-section" id="hair-section">
+                <img src="bugatti.jpg" alt="Hair 1" onclick="changeAvatar('hair-section', 'bugatti.jpg')" />
+                <img src="images/hair2.png" alt="Hair 2" onclick="changeAvatar('hair', 'hair2.png')" />
+                <img src="images/hair3.png" alt="Hair 3" onclick="changeAvatar('hair', 'hair3.png')" />
+            </div>
+            <div class="control-section" id="eyes-section">
+                <img src="images/eyes1.png" alt="Eyes 1" onclick="changeAvatar('eyes', 'eyes1.png')" />
+                <img src="images/eyes2.png" alt="Eyes 2" onclick="changeAvatar('eyes', 'eyes2.png')" />
+                <img src="images/eyes3.png" alt="Eyes 3" onclick="changeAvatar('eyes', 'eyes3.png')" />
+            </div>
+            <div class="control-section" id="nose-section">
+                <img src="images/nose1.png" alt="Nose 1" onclick="changeAvatar('nose', 'nose1.png')" />
+                <img src="images/nose2.png" alt="Nose 2" onclick="changeAvatar('nose', 'nose2.png')" />
+                <img src="images/nose3.png" alt="Nose 3" onclick="changeAvatar('nose', 'nose3.png')" />
+            </div>
+        </div>
+        <div class="avatar-display">
+            <div id="avatar">
+                <img id="base-layer" class="avatar-layer" src="images/base-avatar.png" alt="Base Avatar">
+                <img id="hair-layer" class="avatar-layer" src="" alt="Hair Layer">
+                <img id="eyes-layer" class="avatar-layer" src="" alt="Eyes Layer">
+                <img id="nose-layer" class="avatar-layer" src="" alt="Nose Layer">
+                <img id="smile-layer" class="avatar-layer" src="" alt="Smile Layer">
+                <img id="dress-layer" class="avatar-layer" src="" alt="Dress Layer">
+                <img id="color-layer" class="avatar-layer" src="" alt="Color Layer">
+            </div>
+            <button id="download-btn" onclick="downloadAvatar()">Download</button>
+        </div>
+        <div class="sidebar right">
+            <div class="control-section" id="smile-section">
+                <img src="images/smile1.png" alt="Smile 1" onclick="changeAvatar('smile', 'smile1.png')" />
+                <img src="images/smile2.png" alt="Smile 2" onclick="changeAvatar('smile', 'smile2.png')" />
+                <img src="images/smile3.png" alt="Smile 3" onclick="changeAvatar('smile', 'smile3.png')" />
+            </div>
+            <div class="control-section" id="dress-section">
+                <img src="images/dress1.png" alt="Dress 1" onclick="changeAvatar('dress', 'dress1.png')" />
+                <img src="images/dress2.png" alt="Dress 2" onclick="changeAvatar('dress', 'dress2.png')" />
+                <img src="images/dress3.png" alt="Dress 3" onclick="changeAvatar('dress', 'dress3.png')" />
+            </div>
+            <div class="control-section" id="color-section">
+                <img src="images/color1.png" alt="Color 1" onclick="changeAvatar('color', 'color1.png')" />
+                <img src="images/color2.png" alt="Color 2" onclick="changeAvatar('color', 'color2.png')" />
+                <img src="images/color3.png" alt="Color 3" onclick="changeAvatar('color', 'color3.png')" />
+            </div>
+        </div>
+    </div>
+    <script src="avatar.js"></script>
+</body>
+</html>
