@@ -10,10 +10,6 @@ function downloadAvatar() {
         link.click();
     });
 }
-function toggleDarkMode() {
-    isDarkMode = !isDarkMode;
-    document.body.classList.toggle('dark-mode', isDarkMode);
-}
 function filterGender(gender) {
     const hairImages = document.querySelectorAll("#hair-section img");
     const eyesImages = document.querySelectorAll("#eyes-section img");
