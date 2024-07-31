@@ -21,11 +21,11 @@ The Avatar Creator is a simple beginner-level interactive web application that a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/avatar-creator.git
+   git clone https:https://github.com/VinayaKadate/AvatarCreator.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd avatar-creator
+   cd AvatarCreator
    ```
 3. Open `index.html` in your preferred web browser.
 
