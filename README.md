@@ -36,7 +36,7 @@ The Avatar Creator is a simple beginner-level interactive web application that a
 4. Once satisfied with your avatar, you can download or save the image.
 
 ## Creators 
--Devika Bongarde @devikabongarde
--Vinayak Kadate @VinayaKadate
--Avadhoot Gurav @Avadhoot2309
--Shivraj Chougule @Shivrajchougule917
+-Devika Bongarde [@devikabongarde](https://github.com/devikabongarde)
+-Vinayak Kadate [@VinayaKadate](https://github.com/VinayaKadate)
+-Avadhoot Gurav [@Avadhoot2309](https://github.com/Avadhoot2309)
+-Shivraj Chougule [@Shivrajchougule917](https://github.com/Shivrajchougule917)
